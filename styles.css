@@ -1,0 +1,327 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	background-image: url("Gambar/backgroundweb.jpg");
+	z-index: -20;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+.nav h3 {
+	font-style: bold;
+	margin-left: 20px;
+}
+.nav {
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	background: #0096FF;
+	height: 25px;
+	padding: 5px;
+}
+.nav h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+.nav-ul {
+	justify-content: space-between;
+	display: flex;
+
+}
+.nav-ul li {
+	list-style: none;
+	padding: 1px;padding: 10px;
+}
+.header {
+	width: 130px;margin-left: 30px;
+}
+.Navbar {
+	display: flex;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+	background: white;
+	align-items: center;
+	padding: 5px;
+	justify-content: space-between;
+	
+}
+.navbar_ul {
+	justify-content: space-between;display: flex;
+}
+.navbar_ul li {
+	list-style: none;
+	padding: 10px;
+	font-weight: bold	;
+	font-size: 21px;
+	margin-right: 10px;
+	font-style: oblique	;
+}
+.navbar_ul li select {
+	list-style: none;
+	border: none;
+	font-weight: bold	;
+	font-size: 21px;
+	font-style: oblique	;
+}
+.navbar_ul li .open {
+	border: none;
+}
+.navbar_ul li a {
+	text-decoration: none;
+	color: 	black	;
+}
+.navbar_ul li a:hover {
+	text-decoration: underline;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  box-shadow: 0.5px 1px 1px 1.5px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+.navbar_ul li .active {
+	background: papayawhip;
+	padding: 8px;
+	border-radius: 5px;
+	
+}
+.main {
+	margin-top: 20vh;
+}
+.main h1 {
+	 color: #1E90FF;text-shadow: 2px 2px 3px grey;
+	font-size: 	40px;
+	opacity: initial;
+}
+.main h3 {
+	font-size: 	20px; color: #DCDCDC; text-orientation: sideways;
+}
+.input {
+	height: 40px;
+	width: 170px;
+	border: 2px solid grey	;
+	background-color: none;
+	text-align: center;border-radius: 5px;
+	font-size: 	25px;
+}
+select.input {
+	height: 46px;
+}
+.list_produk {
+	display: flex;justify-content: center;
+	margin-top: 10vh;
+	flex-wrap: initial;
+	gap: 3rem;padding: 10px;
+	background: whitesmoke;
+}
+.list {
+	text-align: center;
+	transition: 0.8s;
+	width: 150px;height: 160px;
+	background: white;
+	border: 2px solid gray;
+	margin: 10px;
+	cursor: pointer;
+	box-shadow: 5px 3px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.list img {
+	width: 90px;height: 80px;
+}
+.list :hover {
+	background-color: grey;
+	box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.4);
+	color: orange;
+}
+.main2 {
+	border-top: 2px solid grey;
+}
+.list_produk img {
+	width: 80px;
+	margin-top: 5vh;
+}
+.section h1 {
+	text-align: center; 
+	
+}
+.section {
+	background-color: white;
+}
+.section2 {
+	background: white;
+	padding: 10px;
+	z-index: 1;
+	text-align: center;
+}
+.section2_img {
+	float: right;
+	margin: 20px;
+	z-index: 2;
+}
+.section2 h2 {
+	margin: 40px;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+	font-size: 40px;
+	text-align: center;
+}
+.section2 h4 {
+	margin: 40px;
+	text-align: center;}
+
+.section2 button {
+	background-color: #0288D1;
+	border: none;
+	padding: 18px;
+	cursor: pointer;
+	width: 150px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.section3 {
+	background-image: url("./Gambar/section3_img.jpg");
+	padding: 10px;
+	text-align: center;
+}
+.section3_coloum ul{
+	display: flex;
+	justify-content: center;
+}
+.section3_coloum ul li{
+	display: flex;
+	justify-content: space-around;list-style: none;
+	padding: 10px;
+}
+.section3_list_profil img{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+}
+footer {
+	background: white;padding: 5px;
+}
+
+.footer  {
+	display: flex;
+	justify-content: center;
+	background: white;
+
+}
+.footer .foot {
+	justify-content: space-around;
+	display: flex;padding: 5px;list-style: none;
+}
+.list_footer {
+	list-style: none;
+}
+.main2 {
+	background: whitesmoke;
+	text-align: center;
+}
+.list_main {
+	display: 	flex;
+	justify-content: center	;
+}
+.list_main .list_katalog {
+	display: 	flex	;justify-content: 	center	;
+}
+.list_katalog	.katalog {
+	padding: 	15px;
+	margin: 15px;
+}
+.katalog{
+		background: gray;
+		height: 260px;width: 170px;
+		z-index: 5;
+}
+.harga {
+	background: white;
+	padding: 4px;
+
+}
+.about {
+	padding: 5px;
+	text-align: center;background:grey;
+	border-bottom: 1px solid whitesmoke;
+}
+.header_footer {
+	background: whitesmoke;display: flex;
+	justify-content: center;border-bottom: 2px solid white;
+}
+.header_footer ul {
+	display: flex;justify-content: center;
+}
+.header_footer ul li {
+	list-style: none;padding: 5px;
+}
+@media (max-width : 768px) {
+	body {
+		background-image: url("Gambar/background.jpg");
+	}
+	.nav {
+		height: 18px;
+	}
+	.nav h3 {
+		font-size: 13px;
+	}
+	.nav-ul {
+		width: -10px;
+		font-size: 10px;
+	}
+	.Navbar {
+		padding: 15px;
+	}
+	.navbar_ul {
+		display: none;
+	}
+	.navbar_ul li {
+		font-size: 12px;
+	}
+	.navbar_ul li select {
+		font-size: 12px;
+	}
+	.navbar_ul.open {
+	
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar_ul.open.hamburger {
+  	display: none;
+  }
+	.hamburger {
+    display: flex; margin-top: 5px;
+  
+  }
+  .list_produk {
+  	display: grid;
+  	grid-template-columns: repeat(2, 2fr);
+  }
+  .list {
+  	margin: 20px;
+  }
+  .section2_img {
+  	width: 350px;margin-right: 40px;
+  	margin: 30px;
+  }
+  .list_main {
+	display: 	flex;
+	justify-content: space-around;
+	overflow: auto;white-space: nowrap;
+}
+.footer {
+	display: grid;padding: 5px;grid-template-columns: repeat(2, 1fr);
+}
+.section3_list_profil img{
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+}
+}
